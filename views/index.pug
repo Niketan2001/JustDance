@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+   nav#navbar 
+      ul 
+          div#logo
+            img(src="/static/img (4).png")
+            |JD
+          li #[a(href="/") Home ]
+          li #[a(href="/") About us ]
+          li #[a(href="/") Services]
+          li #[a(href="/") Achievements]
+          li #[a(href="/") contact ]
+  section.introSection#text1 
+   | The body says what words cannot
+   #text2 
+    |Forget your trouble and dance! 
+  section#missionSection 
+    h3 OUR MISSION
+    div.card
+      h3 Creativity
+      div.card-box
+        div.card-img
+          img(src="/static/img.png", alt="")
+
+        div.card-content
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quidem.
+    div.card
+      h3 Perfection
+      div.card-box
+        div.card-img
+          img(src="/static/img (4).png", alt="")
+
+        div.card-content
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quidem.
+    div.card
+      h3 Agility
+      div.card-box
+        div.card-img
+          img(src="/static/img (3).png", alt="")
+
+        div.card-content
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quidem.
+  section#partnersSection 
+    h3 OUR PARTNERS 
+    div#spon
+      img(src="/static/spon (1).png", alt="sponcers img" class="sponimg")
+      img(src="/static/spon (2).png", alt="sponcers img" class="sponimg")
+      img(src="/static/spon (3).png", alt="sponcers img" class="sponimg")
+      img(src="/static/spon (4).png", alt="sponcers img" class="sponimg")
+  section#footerSecton 
+        | Copyright © 2023 JustDance.com | All Rights Reserved
+  script
+      include ../static/index.js 
